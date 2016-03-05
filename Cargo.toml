@@ -1,0 +1,16 @@
+[package]
+
+name = "rocker"
+version = "0.0.1"
+authors = ["Chanwit Kaewkasi <chanwit@gmail.com>"]
+
+[[bin]]
+name = "rocker"
+path = "src/main.rs"
+
+[dependencies]
+iron = "*"
+time = "*"
+router = "*"
+rustc-serialize = "*"
+chrono = "*"
